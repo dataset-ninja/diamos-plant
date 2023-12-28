@@ -1,5 +1,7 @@
-
-Sample image template:
-<img src="https://github.com/dataset-ninja/gland-segmentation/assets/78355358/f158d0dd-71d5-41a2-aba5-4a5f57d54c35" alt="image" width="800">
-
-<span style="font-size: smaller; font-style: italic;">Image description.</span>
+Classification and recognition of foliar diseases is an increasingly evolving field. research that uses machine learning and deep learning concepts to support agriculture parties concerned.
+DiaMOS Plant is a pilot dataset contains images of an entire growing season of pear tree, from February to July, in order to build a representative
+sample which, cover the main cultural aspects of this plant. The dataset is suitable to perform machine
+and deep learning methods in classification and detection tasks. A total of 3505 images were collected,
+including 499 fruit images and 3006 leaves images, respectively. The fruit is portrayed in the following
+4 phases: fruit set, nut fruit, fruit growth, ripening. Similarly, biotic and abiotic stresses fall into 4
+categories: leaf spot, leaf curl, slug damage, and healthy leaf.
