@@ -12,8 +12,6 @@ DiaMOS Plant is introduced as a field dataset for diagnosing and monitoring plan
 | **ROI (Region of Interest)** | Leaf, Fruit       |
 | **Total Size**               | 3505 images       |
 
-<span style="font-size: smaller; font-style: italic;">Dataset description</span>
-
 ## Dataset description
 
 The authors of the dataset comprises images captured using different devices, including smartphones and DSLR cameras. Two resolutions, 2976 × 3968 and 3456 × 5184, add complexity and value to the dataset. Multiple devices were employed to simulate real-world scenarios where operators have diverse technical characteristics in their devices. Leaves were captured from the adaxial side under various realistic conditions, including different lighting, angles, backgrounds, and noise levels. This approach allowed for the representation of leaves under diverse lighting conditions and the observation of symptom evolution over time.
@@ -25,8 +23,6 @@ The authors of the dataset comprises images captured using different devices, in
 | **Focal length** | 3.83 mm           | 50 mm         |
 | **Focal ratio**  | f/2.2             | f/4.5         |
 | **Color space**  | RGB               | RGB           |
-
-<span style="font-size: smaller; font-style: italic;">Acquisition device configurations</span>
 
 ## Dataset annotation
 
