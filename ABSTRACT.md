@@ -3,7 +3,6 @@ The study offers valuable guidelines for the research community in selecting and
 Significance of Leaf Analysis in Plant Health. The direct visual examination of leaves serves as a crucial source of information for assessing plant health. Leaf symptoms act as early indicators of various diseases, infections, parasites, and deficiencies that impact plant development and life cycles. Biotic and abiotic stresses, significant factors limiting agricultural productivity, necessitate innovative and sustainable cultivation practices.
 DiaMOS Plant is introduced as a field dataset for diagnosing and monitoring plant symptoms. It covers an entire growing season of a pear tree, containing 3505 images depicting four leaf stresses and three stages of fruit development. The dataset, suitable for machine and deep learning methods, includes detailed information on fruit and leaf images, resolution variations, and acquisition devices.
 
-<img src="" alt="image" width="800">
 | **DiaMOS Plant Dataset**     |                   |
 | ---------------------------- | ----------------- |
 | **Plant**                    | Pear              |
@@ -12,13 +11,13 @@ DiaMOS Plant is introduced as a field dataset for diagnosing and monitoring plan
 | **Type of Data**             | RGB Images        |
 | **ROI (Region of Interest)** | Leaf, Fruit       |
 | **Total Size**               | 3505 images       |
+
 <span style="font-size: smaller; font-style: italic;">Dataset description</span>
 
 ## Dataset description
 
 The authors of the dataset comprises images captured using different devices, including smartphones and DSLR cameras. Two resolutions, 2976 × 3968 and 3456 × 5184, add complexity and value to the dataset. Multiple devices were employed to simulate real-world scenarios where operators have diverse technical characteristics in their devices. Leaves were captured from the adaxial side under various realistic conditions, including different lighting, angles, backgrounds, and noise levels. This approach allowed for the representation of leaves under diverse lighting conditions and the observation of symptom evolution over time.
 
-<img src="" alt="image" width="800">
 |                  | Smartphone Camera | DSRL Camera   |
 | ---------------- | ----------------- | ------------- |
 | **Image size**   | 2976 × 3968       | 3456 × 5184   |
@@ -26,6 +25,7 @@ The authors of the dataset comprises images captured using different devices, in
 | **Focal length** | 3.83 mm           | 50 mm         |
 | **Focal ratio**  | f/2.2             | f/4.5         |
 | **Color space**  | RGB               | RGB           |
+
 <span style="font-size: smaller; font-style: italic;">Acquisition device configurations</span>
 
 ## Dataset annotation
