@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "DiaMOS Plant"
-PROJECT_NAME_FULL: str = "A Dataset for Diagnosis and Monitoring Plant Disease"
+PROJECT_NAME_FULL: str = "DiaMOS Plant: A Dataset for Diagnosis and Monitoring Plant Disease"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
