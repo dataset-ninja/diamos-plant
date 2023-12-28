@@ -20,7 +20,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.CC_BY_NC_4_0()
+LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
 CATEGORY: Category = Category.Agriculture()
 
@@ -44,11 +44,18 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/diamos-plant"
 ### * Optional after uploading ###
 ##################################
 DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
-    "Pear.zip": "https://zenodo.org/records/5557313/files/Pear.zip?download=1"
+    "Pear.zip": "https://zenodo.org/records/5557313/files/Pear.zip?download=1",
+    "Description_DIaMOS_Plant_dataset.pdf": "https://zenodo.org/records/5557313/files/Description_DIaMOS_Plant_dataset.pdf?download=1",
 }
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "healthy leaf": [230, 25, 75],
+    "pear": [60, 180, 75],
+    "curl leaf": [255, 225, 25],
+    "slug leaf": [0, 130, 200],
+    "spot leaf": [245, 130, 48],
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
@@ -66,12 +73,12 @@ CITATION_URL: Optional[str] = "https://zenodo.org/records/5557313/export/hx"
 AUTHORS: Optional[List[str]] = ["Gianni Fenu", "Francesca Maridina Malloci"]
 AUTHORS_CONTACTS: Optional[List[str]] = ["fenu@unica.it", "francescam.malloci@unica.it"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "University of Cagliari"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "University of Cagliari, Italy"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://web.unica.it/unica/"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__PRETEXT__": "Additionally, the images has ***severity level*** tag. The severity level is determined based on the percentage of leaf area affected."
+    "__PRETEXT__": "Additionally, the images have ***severity level*** tag. The severity level is determined based on the percentage of leaf area affected"
 }
 TAGS: Optional[List[str]] = None
 
