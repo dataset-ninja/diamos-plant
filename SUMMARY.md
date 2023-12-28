@@ -1,4 +1,4 @@
-**A Dataset for Diagnosis and Monitoring Plant Disease** is a dataset for an object detection task. It is used in the agricultural industry. 
+**DiaMOS Plant: A Dataset for Diagnosis and Monitoring Plant Disease** is a dataset for an object detection task. It is used in the agricultural industry. 
 
 The dataset consists of 3505 images with 3753 labeled objects belonging to 5 different classes including *slug leaf*, *spot leaf*, *pear*, and other: *curl leaf* and *healthy leaf*.
 
