@@ -106,6 +106,13 @@ def convert_and_upload_supervisely_project(
         img_height = image_np.shape[0]
         img_wight = image_np.shape[1]
 
+        if img_wight == 5184:
+            source = sly.Tag(source_meta, value="DSLR camera")
+        else:
+            source = sly.Tag(source_meta, value="smartphone camera")
+
+        tags.append(source)
+
         bbox_name = get_file_name(image_path) + ".txt"
         if bbox_name == "2865.txt":  # error in file
             return sly.Annotation(img_size=(img_height, img_wight), labels=labels, img_tags=tags)
@@ -132,6 +139,12 @@ def convert_and_upload_supervisely_project(
     obj_class_curl = sly.ObjClass("curl leaf", sly.Rectangle)
     obj_class_slug = sly.ObjClass("slug leaf", sly.Rectangle)
     obj_class_spot = sly.ObjClass("spot leaf", sly.Rectangle)
+
+    source_meta = sly.TagMeta(
+        "source",
+        sly.TagValueType.ONEOF_STRING,
+        possible_values=["smartphone camera", "DSLR camera"],
+    )
 
     folder_to_class = {
         "fruits": obj_class_pear,
@@ -185,7 +198,7 @@ def convert_and_upload_supervisely_project(
             obj_class_slug,
             obj_class_spot,
         ],
-        tag_metas=[tag_meta],
+        tag_metas=[tag_meta, source_meta],
     )
     api.project.update_meta(project.id, meta.to_json())
 
