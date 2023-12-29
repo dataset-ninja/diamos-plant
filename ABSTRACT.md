@@ -28,4 +28,4 @@ The authors of the dataset comprise images captured using different devices, inc
 ## Dataset annotation
 
 The dataset labeling process involved manual annotation using the [LabelImg software](https://github.com/tzutalin/labelImg). An expert assisted in disease recognition, and severity levels were assigned for specific classes. Severity levels ranged from no risk (0%) to high risk (>50%), providing detailed information on the affected leaf area.
-The dataset's representativeness, complexity, and detailed annotations contribute to its potential for advancing research in the field of plant symptom diagnosis and monitoring. Some annotations are of poor quality: the frames do not correspond to the location of objects in the image.
+The dataset's representativeness, complexity, and detailed annotations contribute to its potential for advancing research in the field of plant symptom diagnosis and monitoring. Some annotations are of poor quality: the bounding boxes do not correspond to the location of objects in the image.
