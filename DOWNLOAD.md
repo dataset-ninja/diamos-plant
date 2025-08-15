@@ -1,6 +1,6 @@
 Dataset **DiaMOS Plant** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzMyNThfRGlhTU9TIFBsYW50L2RpYW1vcy1wbGFudC1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJXQ2x3QXY1eEdUeGVqZkM4M256WU1ENjdHajBUSEMyQThDekNoWUszQmxZPSJ9)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMzI1OF9EaWFNT1MgUGxhbnQvZGlhbW9zLXBsYW50LURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogImJ0TFZSYnZtNmZ0Zkdtd3BLcGdDMllOZFZYcVZmWGFTcHh4SllwNEtwRmc9In0=?response-content-disposition=attachment%3B%20filename%3D%22diamos-plant-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
